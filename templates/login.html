@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NiceTopWarGame_Session-Hijacking</title>
+  </head>
+  <body>
+    <h1>로그인</h1>
+    <p>기본 계정: ID - user, PW - user</p>
+    <form action="/login" method="post">
+      <label for="username">id:</label><br />
+      <input type="text" id="username" name="username" /><br />
+      <label for="password">pw:</label><br />
+      <input type="password" id="password" name="password" /><br /><br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
